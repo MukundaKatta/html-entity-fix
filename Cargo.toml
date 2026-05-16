@@ -1,0 +1,15 @@
+[package]
+name = "html-entity-fix"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Decode HTML entities (&amp; &lt; &gt; &quot; &#39; numeric refs) that LLMs sometimes emit in plain-text output. Zero deps."
+authors = ["Mukunda Rao Katta <mukunda.vjcs6@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MukundaKatta/html-entity-fix"
+homepage = "https://github.com/MukundaKatta/html-entity-fix"
+documentation = "https://docs.rs/html-entity-fix"
+readme = "README.md"
+keywords = ["html", "entity", "decode", "sanitize", "llm"]
+categories = ["text-processing", "encoding"]
+exclude = [".github/*", "target/*"]
